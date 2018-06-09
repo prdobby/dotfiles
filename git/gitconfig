@@ -1,14 +1,34 @@
 [user]
-	name = prdobby
-	email = twoplasticforks@gmail.com
+    name = prdobby
+    email = twoplasticforks@gmail.com
 
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+    diff = auto
+    status = auto
+    branch = auto
 
 [alias]
-	graph = log --graph --oneline --decorate=short --branches='*'
+    co = checkout
+    new = checkout -b
+    ca = commit --amend
+    cm = commit -m 
+    up = pull --rebase --prune
+    ss = stash save
+    sl = stash list
+    sa = stash apply
+    sp = stash pop
+    sd = stash drop
+    rh = reset --hard HEAD
+    rs = reset --soft HEAD
+    graph = log --graph --oneline --decorate=short --branches='*'
+    stat = log --pretty=format:'%C(magenta)%h%C(cyan)%d %Creset%s%C(yellow) [%cn]' --decorate --numstat
+    ls = log --format='%C(magenta)%h%Creset %s %C(yellow)[%an]%Creset'
+    ld = log --pretty=format:'%C(magenta)%h %ad%C(cyan)%d %Creset%s%C(yellow) [%cn]' --decorate --date=short
+    lr = log --pretty=format:'%C(magenta)%h %ad%C(cyan)%d %Creset%s%C(yellow) [%cn]' --decorate --date=relative
+    l = log --oneline --decorate
+    find = "!git ls-files | grep -i"
+    grep = grep -Ii
+    ri = rebase -i
 
 [github]
-	user = prdobby
+    user = prdobby
