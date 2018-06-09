@@ -1,0 +1,14 @@
+[user]
+	name = prdobby
+	email = twoplasticforks@gmail.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[alias]
+	graph = log --graph --oneline --decorate=short --branches='*'
+
+[github]
+	user = prdobby
