@@ -1,0 +1,7 @@
+#/usr/bin/env bash
+
+function run_springboot_app_with_config() {
+    app=$1
+    shift
+    mvn -Dspring.config.location=/srv/configs/$app.yaml clean spring-boot:run $@
+}

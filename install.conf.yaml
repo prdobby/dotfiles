@@ -1,0 +1,14 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vim: null
+    ~/.vimrc: null
+    ~/.gitconfig: null
+    ~/.scripts: null
+    ~/.bashrc:
+            force: true 
+
