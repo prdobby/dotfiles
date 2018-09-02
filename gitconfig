@@ -1,6 +1,5 @@
 [user]
-    name = prdobby
-    email = twoplasticforks@gmail.com
+    name = prfisher
 
 [color]
     diff = auto
@@ -31,4 +30,4 @@
     ri = rebase -i
 
 [github]
-    user = prdobby
+    user = prfisher
